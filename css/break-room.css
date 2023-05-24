@@ -1,0 +1,91 @@
+/********************************************
+            TABLE OF CONTENTS
+----------------------------------------
+    0. Project details
+    1. CSS Reset
+    2. Global styles
+    3. Header and nav
+        -global
+        -sub pages
+    4. Main body content
+        -global
+        -sub pages
+    5. Footer content
+        -global
+        -sub pages
+    6. Forms
+        -sub pages
+    7. Media queries
+        -global
+        -sub pages
+********************************************/
+
+/********************************************
+    0. Project details 
+--------------------------------------------
+    Author: Group 3
+    Project: 644 Final Project
+    Ver: 1.0
+    Last Updated: 5/24/2023
+********************************************/
+
+/********************************************
+    1. CSS Reset
+********************************************/
+
+*,
+*::before,
+*::after{
+	box-sizing: 0;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+ol, 
+ul, 
+li,
+fieldset, 
+form, 
+label, 
+legend,
+table, 
+tr, 
+th, 
+td,
+dl,
+dd,
+input,
+button,
+textarea,
+select {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 10px;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* set up the body */
+body {
+	line-height: 1.5;
+	min-height: 100vh;
+}
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+/********************************************
+    2. Global styles
+********************************************/
+root {
+	/* ************ */
+}
