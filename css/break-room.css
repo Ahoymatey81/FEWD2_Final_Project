@@ -106,8 +106,12 @@ root {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    /* NOTE THESE OVERALL STYLES CAN BE PLACED ELSEWHERE I NEED FOR TYPE STYLING NOW */
     body {
         font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        margin: 1rem;
+        padding: 1rem;;
     }
     h1 { font-size: 4rem;}
     h2 { font-size: 3.5rem;}
