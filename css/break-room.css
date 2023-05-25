@@ -9,7 +9,7 @@
         -Spacing
         -Links
         -Buttons
-        -Grid
+        -Grid System
         -Forms
         -Lists
         -Tables
@@ -41,7 +41,7 @@
 *,
 *::before,
 *::after{
-	box-sizing: 0;
+    box-sizing: border-box;
 }
 /* Remove default margin */
 body,
@@ -111,9 +111,61 @@ root {
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Grid
+/* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.room {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
+.column-one, 
+.column-two,
+.column-three,
+.column-four,
+.column-five,
+.column-six,
+.column-seven,
+.column-eight,
+.column-nine,
+.column-ten,
+.column-eleven,
+.column-twelve {
+    width: 100%;
+}
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .room {
+      width: 90%;
+    }
+}
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+    .room {
+      width: 85%; 
+    }
+    .row {
+        flex-direction: row;
+    }
+    .column-one             {width: 5%} 
+    .column-two             {width: 10%} 
+    .column-three           {width: 15%} 
+    .column-four            {width: 20%} 
+    .column-five            {width: 25%} 
+    .column-six             {width: 50%} 
+    .column-seven           {width: 75%} 
+    .column-eight           {width: 80%} 
+    .column-nine            {width: 85%} 
+    .column-ten             {width: 90%} 
+    .column-eleven          {width: 95%} 
+    .column-twelve          {width: 100%} 
+}    
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -147,17 +199,17 @@ root {
     5. Components
 ********************************************/
 
-/* Larger than mobile */
+/* Mobile */
 @media (min-width: 400px) {}
 
-/* Larger than phablet (also point when grid becomes active) */
+/* Our Grid System is activated */
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
 
-/* Larger than desktop */
+/* Desktop */
 @media (min-width: 1000px) {}
 
-/* Larger than Desktop HD */
+/* Very Large Devices */
 @media (min-width: 1200px) {}
