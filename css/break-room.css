@@ -1,3 +1,4 @@
+
 /********************************************
             TABLE OF CONTENTS
 ----------------------------------------
@@ -6,6 +7,9 @@
     2. Global styles
     3. Elements
         -Typography
+        /* google font */
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         -Spacing
         -Links
         -Buttons
@@ -93,6 +97,7 @@ img {
 ********************************************/
 root {
 	/* ************ */
+
 }
 
 /********************************************
@@ -101,6 +106,9 @@ root {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
