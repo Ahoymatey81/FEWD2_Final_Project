@@ -7,6 +7,7 @@
     2. Global styles
     3. Elements
         -Typography
+        -Colors
         -Spacing
         -Links
         -Buttons
@@ -14,6 +15,7 @@
         -Forms
         -Lists
         -Tables
+        -Cards
         -Images
         -Helpers
     4. Components
@@ -106,18 +108,18 @@ root {
     /* NOTE THESE OVERALL STYLES CAN BE PLACED ELSEWHERE I NEED FOR TYPE STYLING NOW */
     body {
         font-family: 'Open Sans', sans-serif;
-        line-height: 1.5;
-        margin: 1rem;
-        padding: 1rem;;
     }
-    h1 { font-size: 4rem;}
-    h2 { font-size: 3.5rem;}
-    h3 { font-size: 3rem;}
-    h4 { font-size: 2.5rem;}
-    h5 { font-size: 2rem;}
-    h6 { font-size: 1.5rem;}
+    h1 { font-size: 4rem; margin: 1rem; padding: 1rem;}
+    h2 { font-size: 3.5rem; margin: 1rem; padding: 1rem;}
+    h3 { font-size: 3rem; margin: 1rem; padding: 1rem;}
+    h4 { font-size: 2.5rem; margin: 1rem; padding: 1rem;}
+    h5 { font-size: 2rem; margin: 1rem; padding: 1rem;}
+    h6 { font-size: 1.5rem; margin: 1rem; padding: 1rem;}
 
 /* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Colors
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Links
@@ -188,6 +190,9 @@ root {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Images
