@@ -153,18 +153,18 @@ root {
     .row {
         flex-direction: row;
     }
-    .column-one             {width: 5%} 
-    .column-two             {width: 10%} 
-    .column-three           {width: 15%} 
-    .column-four            {width: 20%} 
-    .column-five            {width: 25%} 
-    .column-six             {width: 50%} 
-    .column-seven           {width: 75%} 
-    .column-eight           {width: 80%} 
-    .column-nine            {width: 85%} 
-    .column-ten             {width: 90%} 
-    .column-eleven          {width: 95%} 
-    .column-twelve          {width: 100%} 
+    .column-one             {flex: 1} 
+    .column-two             {flex: 2} 
+    .column-three           {flex: 3} 
+    .column-four            {flex: 4} 
+    .column-five            {flex: 5} 
+    .column-six             {flex: 6} 
+    .column-seven           {flex: 7} 
+    .column-eight           {flex: 8} 
+    .column-nine            {flex: 9} 
+    .column-ten             {flex: 10} 
+    .column-eleven          {flex: 11} 
+    .column-twelve          {flex: 100%} 
 }    
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
