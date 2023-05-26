@@ -415,7 +415,7 @@ header {
 
 .navigation.active .nav-items{ transform: translateY(0); }
 
-.navbar-toggle {
+.nav-toggle {
     color: #fefefe;
     cursor: pointer;
     display: block;
@@ -423,7 +423,7 @@ header {
     margin-left: auto;
 }
 
-.navbar-close {
+.nav-close {
     cursor: pointer;
     font-size: 2em;
     margin: 10px;
@@ -486,7 +486,7 @@ header {
         transform: translateY(0);
     }
 
-    .navbar-close, .navbar-toggle { display: none; }
+    .nav-close, .nav-toggle { display: none; }
 
     .navbar .navbar-logo { font-size: 2.3em; }
 

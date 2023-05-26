@@ -1,6 +1,6 @@
 // ------- HAMBURGER MENU TOGGLE -------
-const menuBtn = document.querySelector(".navbar-toggle");
-const closeBtn = document.querySelector(".navbar-close");
+const menuBtn = document.querySelector(".nav-toggle");
+const closeBtn = document.querySelector(".nav-close");
 const navigation = document.querySelector(".navigation");
 const navItems = document.querySelectorAll(".nav-items a");
 
