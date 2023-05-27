@@ -208,13 +208,13 @@ dd {
 .p5 { padding: 2.0rem; }
 
 /* Shadows
-/* these values have errors need to fix later - Yen?? */
+/* these values have errors need to fix later - Yen??
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.shadows-base: 0 1px 3px 0, rgba(0, 0, 0, 0.1),0 1px 2px 0, rgba(0, 0, 0, 0.6);
-.shadows-xs: 0 0 0 1px, rgba(0, 0, 0, 0.5);
-.shadows-sm: 0 1px 2px 0, rgba(0, 0, 0, 0.5);
-.shadows-md: 0 4px 6px -1px, rgba(0, 0, 0, 0.1),0 2px 4px -1px, rgba(0, 0, 0, 0.6);
-.shadows-lg: 0 10px 15px -3px, rgba(0, 0, 0, 0.1),0 4px 6px -2px, rgba(0, 0, 0, 0.5);
+.shadows-base { 0 1px 3px 0, rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6)}
+.shadows-xs { 0 0 0 1px, rgba(0, 0, 0, 0.5)}
+.shadows-sm { 0 1px 2px 0, rgba(0, 0, 0, 0.5)}
+.shadows-md { 0 4px 6px -1px, rgba(0, 0, 0, 0.1),0 2px 4px -1px, rgba(0, 0, 0, 0.6)}
+.shadows-lg { 0 10px 15px -3px, rgba(0, 0, 0, 0.1),0 4px 6px -2px, rgba(0, 0, 0, 0.5)}
 
 
 /* Colors
