@@ -474,7 +474,9 @@ header {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
-.icon { font-size: 1.25rem; }
+.sm-icon { font-size: 1rem; }
+.md-icon { font-size: 2rem; }
+.lg-icon { font-size: 3rem; }
 
 .icon-list:hover {
     font-size: 1.1rem;
