@@ -391,6 +391,44 @@ dd {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.table {       
+    background-color: transparent;
+    border-collapse: collapse;      
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+}
+.table thead th {           
+    border-bottom: solid #bbb;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+.table th { font-weight: bold; }
+.table th,
+.table td {  
+    border-top:  solid 1px #bbb;
+    padding: 1rem;
+    vertical-align: top;
+}
+.table tbody { border-top: solid 1px #bbb; }
+.table caption {
+    color: #222;
+    padding: 1rem;
+}
+/* Dark Table Elements */
+.tableDark {
+    color: #fff;
+    background-color: #222;
+}
+.tableDark caption {
+    color: #fff;
+    background-color: #222;
+    padding: 1rem;
+}
+/* Table HTML Color Schemes */
+.tableTags { color: #4f5fcf; }
+.tableAttribute { color: #2f9f47; }
+.tableQuotes { color: #d4a349; }
 
 /* Cards
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
