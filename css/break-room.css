@@ -207,6 +207,19 @@ dd {
 .p4 { padding: 1.5rem; }
 .p5 { padding: 2.0rem; }
 
+/* Borders and Border radius
+––––––––––––––––––––––––––––––––––––––––––––––––––
+See colors section for adding borders */
+
+.br-sm          { border-radius: 10%;}
+.br-md          { border-radius: 25%;}
+.br-lg          { border-radius: 50%;}
+.br-left        { border-radius: 25% 10%;}
+.br-right       { border-radius: 10% 25%;}
+.br-box         { border-radius: 10% / 50%;}
+.br-box-r       { border-radius: 50% 20% / 10% 40%;}
+
+
 /* Shadows
 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
