@@ -341,27 +341,7 @@ See colors section for adding borders */
 .column-twelve {
     width: 100%;
 }
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-    .room {
-      width: 90%;
-    }
-}
-/* For devices larger than 550px */
-.column-one, 
-.column-two,
-.column-three,
-.column-four,
-.column-five,
-.column-six,
-.column-seven,
-.column-eight,
-.column-nine,
-.column-ten,
-.column-eleven,
-.column-twelve {
-    margin-left: 3%;
-}
+
 .column-one:first-child, 
 .column-two:first-child,
 .column-three:first-child,
@@ -376,6 +356,14 @@ See colors section for adding borders */
 .column-twelve:first-child {
     margin-left: 0;
 }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .room {
+      width: 90%;
+    }
+}
+
 @media (min-width: 550px) {
     .room {
       width: 85%; 
@@ -383,6 +371,22 @@ See colors section for adding borders */
     .row {
         flex-direction: row;
     }
+
+    .column-one, 
+    .column-two,
+    .column-three,
+    .column-four,
+    .column-five,
+    .column-six,
+    .column-seven,
+    .column-eight,
+    .column-nine,
+    .column-ten,
+    .column-eleven,
+    .column-twelve {
+        margin-left: 3%;
+    }
+
     .column-one             {flex: 1} 
     .column-two             {flex: 2} 
     .column-three           {flex: 3} 
