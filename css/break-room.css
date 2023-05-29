@@ -839,6 +839,63 @@ a.navbar-item.active {
     transition: .1s ease;
 }
 
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .navbar-container {
+        max-width: 1250px;
+        height: calc(6rem + 1rem);
+        padding: 40px 50px;
+    }
+
+    .navbar.sticky .navbar-container {
+        height: calc(5rem + 1rem);
+    }
+
+    .navbar-menu-container {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        top: 0;
+        visibility: visible;
+        opacity: 1;
+        background: transparent;
+    }
+
+    .navbar-menu {
+        background: transparent;
+        box-shadow: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        transform: translateY(0);
+        width: auto;
+    }
+
+    .navbar-close, .navbar-toggle { display: none; }
+
+    .navbar-menu .navbar-item:not(:last-of-type) {margin-bottom: 0;}
+
+    .navbar-menu a.navbar-item {
+        color: #fefefe;;
+        font-size: 2.5em;
+        margin-left: 4rem;
+        padding: .5rem .8rem;
+    }
+
+    .navbar-menu .navbar-item:hover {
+        color: #4A5568;
+        font-weight: normal;
+    }
+
+    a.navbar-item.active {
+        color: #4A5568;;
+    }
+
+    .navbar-logo a.navbar-item {
+        font-size: 2.8rem;
+    }
+}
+
 /* Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon-section {
@@ -898,62 +955,7 @@ a.navbar-item.active {
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {
-    .navbar-container {
-        max-width: 1250px;
-        height: calc(6rem + 1rem);
-        padding: 40px 50px;
-    }
-
-    .navbar.sticky .navbar-container {
-        height: calc(5rem + 1rem);
-    }
-
-    .navbar-menu-container {
-        width: fit-content;
-        height: fit-content;
-        position: relative;
-        top: 0;
-        visibility: visible;
-        opacity: 1;
-        background: transparent;
-    }
-
-    .navbar-menu {
-        background: transparent;
-        box-shadow: none;
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        transform: translateY(0);
-        width: auto;
-    }
-
-    .navbar-close, .navbar-toggle { display: none; }
-
-    .navbar-menu .navbar-item:not(:last-of-type) {margin-bottom: 0;}
-
-    .navbar-menu a.navbar-item {
-        color: #fefefe;;
-        font-size: 2.5em;
-        margin-left: 4rem;
-        padding: .5rem .8rem;
-    }
-
-    .navbar-menu .navbar-item:hover {
-        color: #4A5568;
-        font-weight: normal;
-    }
-
-    a.navbar-item.active {
-        color: #4A5568;;
-    }
-
-    .navbar-logo a.navbar-item {
-        font-size: 2.8rem;
-    }
-}
-
+@media (min-width: 750px) {}
 
 /* Desktop */
 @media (min-width: 1000px) {}
