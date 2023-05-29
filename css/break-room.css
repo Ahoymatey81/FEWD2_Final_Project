@@ -948,6 +948,10 @@ a.navbar-item.active {
     5. Components
 ********************************************/
 
+
+
+/* Responsive Media For Users to use 
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Mobile */
 @media (min-width: 400px) {}
 
@@ -962,7 +966,3 @@ a.navbar-item.active {
 
 /* Very Large Devices */
 @media (min-width: 1200px) {}
-
-
-/* Trish testing new rep connection - please delete this too */
-/* Please delete it later */
