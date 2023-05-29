@@ -485,6 +485,18 @@ div.button-example {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.button.disabled-btn {
+    color: #666666;
+    background-color: #cccccc;
+    cursor: not-allowed;
+    letter-spacing: .8px;
+    font-weight: 550;
+}
+
+.button.disabled-btn:active, .button.disabled-btn:hover {
+    transform: translateY(0);
+}
+
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
