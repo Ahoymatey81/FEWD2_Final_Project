@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   h6 { font-family: 'Merriweather', serif; font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
   /* Increase font size for larger screens */
-  /* @media (min-width: 550px) {
+ @media (min-width: 550px) {
     h1 { font-size: 5.0rem; }
     h2 { font-size: 4.2rem; }
     h3 { font-size: 3.6rem; }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     h5 { font-size: 2.4rem; }
     h6 { font-size: 1.5rem; }
   }
-   */
+
 p { margin-top: 0; padding-bottom: .2rem; }
 p.space-p {
     letter-spacing: .2rem;
@@ -202,6 +202,7 @@ dd {
 .m-auto { margin:auto; }
 
 /* START: TRISH CHANGED SUNDAY MAY 29 4 PM */
+
 .m0t { margin-top: 0; }
 .m1t { margin-top: .25rem; }
 .m2t { margin-top: .5rem; }
@@ -267,10 +268,8 @@ dd {
 
 
 /* Borders and Border radius
-––––––––––––––––––––––––––––––––––––––––––––––––––
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 See colors section for adding borders
-
-DREW: SHOULD THIS BE UNCOMMENTS???
 
 .br-sm          { border-radius: 10%;}
 .br-md          { border-radius: 25%;}
@@ -283,7 +282,7 @@ DREW: SHOULD THIS BE UNCOMMENTS???
 
 /* Shadows
 /* TRISH CHANGED NAME from shadows to shadow  */
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .shadow-sm { box-shadow: 0 1px 3px 0, rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);}
 .shadow-md { box-shadow: 0 4px 6px -1px, rgba(0, 0, 0, 0.1),0 2px 4px -1px, rgba(0, 0, 0, 0.6);}
 .shadow-lg { box-shadow: 0 10px 15px -3px, rgba(0, 0, 0, 0.1),0 4px 6px -2px, rgba(0, 0, 0, 0.5);}
@@ -366,7 +365,16 @@ DREW: SHOULD THIS BE UNCOMMENTS???
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+a {
+    color: #3880ff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+a:hover {
+    color: #2dd36f;
+    text-decoration: none;
+    font-size: 1rem;
+}
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #button {
