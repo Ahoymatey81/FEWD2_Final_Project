@@ -1102,7 +1102,65 @@ a.navbar-item.active {
 ********************************************/
 /*  CSS TEXT EFFECT FLIP */
 
-/* MISSING NEED TO FIND AND ADD BACK IN */
+/****************************************
+CSS COMPONENT TEXT EFFECTS STARTS HERE 
+*****************************************/
+#txt-container {
+    font-family: sans-serif;
+    border-top: solid 1px #999;
+    padding: 1rem 0;
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+    font-size: 2rem;
+}
+#bg-img-clip h1 {
+    color: #999;
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    border-top: solid 1px #999;
+    padding: 2rem 0;
+    color: hsl(208, 85%, 62%);
+    font-size: clamp(2rem, 10vw, 4.25rem);
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-image: url('../images/flower.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#bg-animate h1 {
+    color: #999;
+    margin: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    border-top: solid 1px #999;
+    border-bottom: solid 1px #999;
+        padding: 2rem 0;
+    --c1: hsl(188, 90%, 55%);
+    --c2: hsl(40, 95%, 55%);
+    --bgSize: 300%;
+    font-size: clamp(2rem, 10vw, 4.75rem);
+    line-height: 1;
+    background: linear-gradient(
+            90deg,
+            var(--c1), var(--c2), var(--c1)
+    )
+            0 0 / var(--bgSize) 100%;
+     animation: moveBG 3s infinite linear;   
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;    
+}
+@keyframes moveBG {
+    to { background-position: var(--bgSize) 0;}
+}
+/****************************************
+ END CSS COMPONENT TEXT EFFECTS 
+*****************************************/
 
 /*  CSS TEXT EFFECT FLIP */
 #flip-container {
@@ -1238,7 +1296,7 @@ a.navbar-item.active {
   }
   /* END BACKGROUND ANIMATION COMPONENT STYLES */
 
-  /* START - HERO COMPONENT */
+  /************* START - HERO COMPONENT **********************/
 .hero {
     margin: 0;
     font-family: sans-serif;
@@ -1381,7 +1439,118 @@ a.navbar-item.active {
   @media only screen and (max-width: 400px) {
     .prev, .next,.text {font-size: 11px}
   }
-  
+  /* END SLIDESHOW */
+
+
+/**************** START ACCORDIAN CSS ******************/
+
+#my-accordion {
+    font-family: sans-serif;
+    min-height: 100vh;
+    padding: 3em;
+}
+#my-accordion h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+#my-accordion p {
+    margin-bottom: .75em;
+}
+#my-accordion img {
+    max-width: 100%;
+    height: auto;
+}
+#my-accordion a {
+    color: #03a3a3;
+    text-decoration: none;
+}
+
+#my-accordion .aHeader h2 {
+    margin: 0;
+    padding: 0;
+}
+#my-accordion a:hover, #my-accordion a:active {
+    color: #64dfe1;
+}
+#my-accordion .aContainer {
+    max-width: 50em;
+    /* padding: 0;
+    margin: 0; */
+}
+#my-accordion .accordion {
+    position: relative;
+    background-color: #e4e4e4;
+    color: #333;
+    /* padding: 0;
+    margin: 0; */
+}
+#my-accordion .accordion::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 1em;
+    background-color: rgba(2, 26, 34, 0.2);
+    content: "";
+}
+#my-accordion .accordion:first-child {
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+}
+#my-accordion .accordion:last-child {
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+#my-accordion .accordion:first-child::before {
+    border-top-left-radius: 1.5em; 
+}
+#my-accordion .accordion:last-child::before {
+    border-bottom-left-radius: 1.5em; 
+}
+#my-accordion .aHeader button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 1rem);
+    margin-left: 1rem;
+    padding: 1.5rem 2rem;
+    border: 0;
+    text-align: left;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#my-accordion .fa-plus, #my-accordion .fa-minus {
+    width: 1rem;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#my-accordion .fa-plus {
+    display: block;
+}
+#my-accordion .fa-minus {
+    display: none;
+}
+#my-accordion .accordion.isOpen .fa-minus {
+    display: block;
+}
+#my-accordion .accordion.isOpen .fa-plus {
+    display: none;
+}
+
+#my-accordion .aContent {
+    padding: 1.5em 3em;
+    display: none;
+}
+#my-accordion .isOpen .aContent {
+    display: block;
+}
+#my-accordion .aContent img {
+    float: left;
+    padding-right: 1em;
+}
+
+/* END ACCORDIAN CSS */
 
 /* Responsive Media For Users to use 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
