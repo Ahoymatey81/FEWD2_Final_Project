@@ -1,4 +1,5 @@
 /* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Merriweather', serif; */
 /********************************************
             TABLE OF CONTENTS
 ----------------------------------------
@@ -112,12 +113,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 300; }
-  h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
-  h2 { font-size: 3.5rem; line-height: 1.25; letter-spacing: -.1rem; }
-  h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-  h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-  h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-  h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+  h1 { font-family: 'Merriweather', serif; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
+  h2 { font-family: 'Merriweather', serif; font-size: 3.5rem; line-height: 1.25; letter-spacing: -.1rem; }
+  h3 { font-family: 'Merriweather', serif; font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+  h4 { font-family: 'Merriweather', serif; font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+  h5 { font-family: 'Merriweather', serif; font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+  h6 { font-family: 'Merriweather', serif; font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
   /* Increase font size for larger screens */
   /* @media (min-width: 550px) {
@@ -201,28 +202,75 @@ dd {
 .m-auto { margin:auto; }
 
 /* START: TRISH CHANGED SUNDAY MAY 29 4 PM */
-/* 
 .m0t { margin-top: 0; }
 .m1t { margin-top: .25rem; }
 .m2t { margin-top: .5rem; }
 .m3t { margin-top: 1.0rem; }
 .m4t { margin-top: 1.5rem; }
 .m5t { margin-top: 2.0rem; }
+
 .m0r { margin-top: 0; }
-.m1r{ margin-top: .25rem; }
-.m2r { margin-top: .5rem; }
-.m3r { margin-top: 1.0rem; }
-.m4r { margin-top: 1.5rem; }
-.m5r { margin-top: 2.0rem; }
+.m1r{ margin-right: .25rem; }
+.m2r { margin-right: .5rem; }
+.m3r { margin-right: 1.0rem; }
+.m4r { margin-right: 1.5rem; }
+.m5r { margin-right: 2.0rem; }
+
+.m0b { margin-bottom: 0; }
+.m1b{ margin-bottom: .25rem; }
+.m2b { margin-bottom: .5rem; }
+.m3b { margin-bottom: 1.0rem; }
+.m4b { margin-bottom: 1.5rem; }
+.m5r{ margin-bottom: 2.0rem; }
+
+.m0l { margin-left: 0; }
+.m1l{ margin-left: .25rem; }
+.m2l { margin-left: .5rem; }
+.m3l { margin-left: 1.0rem; }
+.m4l { margin-left: 1.5rem; }
+.m5l { margin-left: 2.0rem; }
+
 .p0 { padding: 0; }
 .p1 { padding: .25rem; }
 .p2 { padding: .5rem; }
 .p3 { padding: 1.0rem; }
 .p4 { padding: 1.5rem; }
 .p5 { padding: 2.0rem; }
+
+.p0t { padding-top: 0; }
+.p1t { padding-top: .25rem; }
+.p2t { padding-top: .5rem; }
+.p3t { padding-top: 1.0rem; }
+.p4t { padding-top: 1.5rem; }
+.p5t { padding-top: 2.0rem; }
+
+.p0r { padding-right: 0; }
+.p1r{ padding-right: .25rem; }
+.p2r { padding-right: .5rem; }
+.p3r { padding-right: 1.0rem; }
+.p4r { padding-right: 1.5rem; }
+.p5r { padding-right: 2.0rem; }
+
+.p0b { padding-bottom: 0; }
+.p1b{ padding-bottom: .25rem; }
+.p2b { padding-bottom: .5rem; }
+.p3b { padding-bottom: 1.0rem; }
+.p4b { padding-bottom: 1.5rem; }
+.p5r{ padding-bottom: 2.0rem; }
+
+.p0l { padding-left: 0; }
+.p1l{ padding-left: .25rem; }
+.p2l { padding-left: .5rem; }
+.p3l { padding-left: 1.0rem; }
+.p4l { padding-left: 1.5rem; }
+.p5l { padding-left: 2.0rem; }
+
+
 /* Borders and Border radius
 ––––––––––––––––––––––––––––––––––––––––––––––––––
-See colors section for adding borders */
+See colors section for adding borders
+
+DREW: SHOULD THIS BE UNCOMMENTS???
 
 .br-sm          { border-radius: 10%;}
 .br-md          { border-radius: 25%;}
@@ -961,8 +1009,288 @@ a.navbar-item.active {
 /********************************************
     5. Components
 ********************************************/
+/*  CSS TEXT EFFECT FLIP */
+
+/* MISSING NEED TO FIND AND ADD BACK IN */
+
+/*  CSS TEXT EFFECT FLIP */
+#flip-container {
+    font-family: sans-serif;
+    text-align:center;
+    color:#777;
+    text-transform: uppercase;
+    font-size:36px;
+    font-weight:bold;
+    padding-top:200px;  
+    position:fixed;
+    width:100%;
+    bottom:45%;
+    display:block;
+  }
+  #flip {
+    height:50px;
+    overflow:hidden;
+  }
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    height:45px;
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  #flip div:first-child {
+    animation: show 8s linear infinite;
+  }
+  #flip div div {
+    background:#42c58a;
+  }
+  #flip div:first-child div {
+    background:#4ec7f3;
+  }
+  #flip div:last-child div {
+    background:#DC143C;
+  }
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
 
 
+/* BACKGROUND ANIMATION COMPONENT STYLES */
+#hero-animate {
+    background-color: #00bec1;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .hero__title {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    z-index: 1;
+  }
+  .cube {
+    position: absolute;
+    top: 80vh;
+    left: 45vw;
+    width: 10px;
+    height: 10px;
+    border: solid 1px #008998;
+    transform-origin: top left;
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    -webkit-animation: cube 12s ease-in forwards infinite;
+            animation: cube 12s ease-in forwards infinite;
+  }
+  .cube:nth-child(2n) {
+    border-color: #06898b;
+  }
+  .cube:nth-child(2) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    left: 25vw;
+    top: 40vh;
+  }
+  .cube:nth-child(3) {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+    left: 75vw;
+    top: 50vh;
+  }
+  .cube:nth-child(4) {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s;
+    left: 90vw;
+    top: 10vh;
+  }
+  .cube:nth-child(5) {
+    -webkit-animation-delay: 8s;
+            animation-delay: 8s;
+    left: 10vw;
+    top: 85vh;
+  }
+  .cube:nth-child(6) {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s;
+    left: 50vw;
+    top: 10vh;
+  }
+  @-webkit-keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  @keyframes cube {
+    from {
+      transform: scale(0) rotate(0deg) translate(-50%, -50%);
+      opacity: 1;
+    }
+    to {
+      transform: scale(20) rotate(960deg) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }
+  /* END BACKGROUND ANIMATION COMPONENT STYLES */
+
+  /* START - HERO COMPONENT */
+.hero {
+    margin: 0;
+    font-family: sans-serif;
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Text styles */
+    text-align: center;
+    color: white; /* ADD THIS LINE */
+    
+    /* Background styles */
+    /* background-image: url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    background-image: url('ss1.jpg');
+  
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    /* Text styles */
+    font-size: 5em;
+    
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* Text styles */
+    color: white; /* CHANGE THIS LINE */
+    text-decoration: none;
+    font-size: 1.5em;
+    
+    /* Border styles */
+    border: 3px solid white; /* CHANGE THIS LINE */
+    border-radius: 20px;
+      /* Background styles */
+      background-color: rgba(112, 201, 219, 0.8);
+  }
+  .hero-page-content {
+    padding: 0.5rem 1rem;
+    font-family: sans-serif;
+  }
+  /*  END HERO */
+
+  /* SLIDESHOW */
+  /* Slideshow container */
+#slideshow-container {
+    max-width: 1000px;
+    font-family: sans-serif;
+    position: relative;
+    margin: auto;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  /* Number text (1/4 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 400px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
 
 /* Responsive Media For Users to use 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
