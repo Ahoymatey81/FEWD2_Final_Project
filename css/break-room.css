@@ -1000,22 +1000,12 @@ a.navbar-item.active {
 
 /* Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#icons {
-    max-width: 900px;
-    color: #333;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#icon p {
-    font-size: 1.1rem;
-}
-
 .icon-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     gap: 1.25rem;
     margin-top: 1.75em;
+    margin-bottom: 1.75em;
 }
 
 .icon-list {
@@ -1024,19 +1014,23 @@ a.navbar-item.active {
     align-items: center;
     border: solid 1px #333;
     border-radius: 5px;
-    height: 2rem;
+    height: 4rem;
     gap: 5px;
-    min-width: 2rem;
-    font-size: 1rem;
+    min-width: 4rem;
+    font-size: .8rem;
     padding: 1rem 0;
     background-color: #CBD5E0;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 .icon-list:hover {
-    font-size: 1.1rem;
+    font-size: 1rem;
     background-color: #EDF2F7;
     transition: .2s ease;
+}
+
+.icon-list:hover i {
+    font-size: 1.1rem;
 }
 
 .icon {
@@ -1065,9 +1059,9 @@ a.navbar-item.active {
 
 
 .example {
-    text-align: left;
     border: 1px solid #333;
-    max-width: 700px;
+    width: 100%;
+    white-space: pre-wrap;
 }
 
 .icon-text {
@@ -1091,7 +1085,7 @@ a.navbar-item.active {
 .icon-text.icon:not(:first-child) {
     margin-left: .25em;
     margin-right: .25em;
-} 
+}
 
 /* No Print
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
