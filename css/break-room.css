@@ -1000,14 +1000,15 @@ a.navbar-item.active {
 
 /* Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.icon-section {
+#icons {
     max-width: 900px;
     color: #333;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.icon-section p {
+#icon p {
     font-size: 1.1rem;
-    margin-top: 10px;
 }
 
 .icon-grid {
@@ -1023,24 +1024,74 @@ a.navbar-item.active {
     align-items: center;
     border: solid 1px #333;
     border-radius: 5px;
-    height: 2.5rem;
-    min-width: 2.5rem;
+    height: 2rem;
+    gap: 5px;
+    min-width: 2rem;
     font-size: 1rem;
     padding: 1rem 0;
-    gap: 3px;
     background-color: #CBD5E0;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
-
-.sm-icon { font-size: 1rem; }
-.md-icon { font-size: 2rem; }
-.lg-icon { font-size: 3rem; }
 
 .icon-list:hover {
     font-size: 1.1rem;
     background-color: #EDF2F7;
     transition: .2s ease;
 }
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+}
+
+.icon.is-medium {
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon.is-large {
+    height: 4rem;
+    width: 4rem;
+}
+
+.icon i { font-size: 1rem; }
+
+.icon.is-medium i { font-size: 1.5rem; }
+
+.icon.is-large i { font-size: 2rem; }
+
+
+.example {
+    text-align: left;
+    border: 1px solid #333;
+    max-width: 700px;
+}
+
+.icon-text {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-wrap: wrap;
+    line-height: 2rem;
+    vertical-align: top;
+}
+
+.icon-text.icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.icon-text.icon:not(:last-child) {
+    margin-right: .25em;
+    margin-left: .25em;
+}
+
+.icon-text.icon:not(:first-child) {
+    margin-left: .25em;
+    margin-right: .25em;
+} 
 
 /* No Print
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
