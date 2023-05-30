@@ -319,7 +319,14 @@ See colors section for adding borders */
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+a {
+    text-decoration: none;
+    font-size: .3rem;
+}
+a:hover {
+    text-decoration: none;
+    font-size: .3rem;
+}
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #button {
