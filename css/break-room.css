@@ -814,6 +814,25 @@ xmp {
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#navigation img {
+    max-width: 40%;
+    height: auto;
+    margin: 2em;
+}
+
+.smNavbar-example {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-example ul li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
 .navbar {
     position: fixed;
     top: 0;
