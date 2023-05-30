@@ -377,10 +377,6 @@ a:hover {
 }
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#button {
-    font-size: 1.5rem;
-}
-
 #button .section {
     margin-top: 30px;
 }
@@ -439,9 +435,19 @@ div.button-example {
     color: #050500;
 }
 
+.btn-white:hover {
+    background-color: #050500;
+    color: #fff;
+}
+
 .btn-light {
     background-color: #f4f5f8;
     color: #858583;
+}
+
+.btn-light:hover {
+    border: 1px solid #050500;
+    color: #050500;
 }
 
 .btn-dark {
@@ -449,32 +455,44 @@ div.button-example {
     color: #fcfcfa;
 }
 
+.btn-dark:hover {
+    background-color: #fcfcfa;
+    color: #050500;
+    border: 1px solid #050500;
+}
+
 .btn-black {
     background-color: #050500;
     color: #fff;
 }
 
-.btn-primary {
+.btn-black:hover {
+    background-color: #fcfcfa;
+    color: #050500;
+    border: 2px solid #050500;
+}
+
+.btn-primary.btn-color-bg {
     background-color: #3880ff;
     color: #fcfcfa;
 }
 
-.btn-info {
+.btn-info.btn-color-bg {
     background-color: #3dc2ff;
     color: #fcfcfa;
 }
 
-.btn-success {
+.btn-success.btn-color-bg {
     background-color: #2dd36f;
     color: #fcfcfa;
 }
 
-.btn-warning {
+.btn-warning.btn-color-bg {
     background-color: #ffc409;
     color: #fcfcfa;
 }
 
-.btn-danger {
+.btn-danger.btn-color-bg {
     background-color: #cc0f35;
     color: #fcfcfa;
 }
@@ -565,6 +583,20 @@ div.button-example {
 .button.disabled-btn:active, .button.disabled-btn:hover {
     transform: translateY(0);
 }
+
+.example {
+    text-align: left;
+    max-width: 700px;
+    background-color: #fefefe;
+    border: solid 1px #333;
+    margin: 1em;
+}
+
+xmp {
+    white-space:pre-line;
+    font-size: 1.2em;
+}
+
 
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
