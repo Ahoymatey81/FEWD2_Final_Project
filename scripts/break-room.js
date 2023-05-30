@@ -49,3 +49,14 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+// ------- ACCORDION -------
+const accordions = Array.from(document.querySelectorAll('.accordion'));
+
+accordions.forEach(accordion => {
+  const accordionHeader = accordion.querySelector('.aHeader');
+
+  accordionHeader.addEventListener('click', e => {
+    accordion.classList.toggle('isOpen');
+  })
+})
+
