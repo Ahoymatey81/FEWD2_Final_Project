@@ -1333,11 +1333,13 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
 *****************************************/
 
  /****************************************
- START ACCORDIAN CSS 
+Trish changed 053123 220pm #my-accordion min height from 100 to 50vh
+
+ START ACCORDION CSS 
 *****************************************/
 #my-accordion {
     font-family: sans-serif;
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 3em;
 }
 #my-accordion h1 {
