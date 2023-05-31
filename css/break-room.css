@@ -814,6 +814,7 @@ xmp {
 
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Updated 3:32PM Yen - changed something on navbar */
 #navigation img {
     max-width: 40%;
     height: auto;
@@ -915,14 +916,14 @@ a.navbar-item {
 a.navbar-item.active {
     background-color: #CBD5E0;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .navbar-menu a.navbar-item {
     color: #333;
     font-size: 2.4rem;
     font-weight: 500; 
-    padding: 1rem;
+    padding: .5rem .7rem;
 }
 
 .navbar-menu .navbar-item:not(:last-of-type) {
@@ -964,12 +965,12 @@ a.navbar-item.active {
 @media (min-width: 750px) {
     .navbar-container {
         max-width: 1250px;
-        height: calc(6rem + 1rem);
+        height: calc(5.5rem + 1rem);
         padding: 40px 50px;
     }
 
     .navbar.sticky .navbar-container {
-        height: calc(5rem + 1rem);
+        height: calc(4rem + 1rem);
     }
 
     .navbar-menu-container {
@@ -998,9 +999,12 @@ a.navbar-item.active {
 
     .navbar-menu a.navbar-item {
         color: #fefefe;;
-        font-size: 2.5em;
-        margin-left: 4rem;
-        padding: .5rem .8rem;
+        font-size: 2em;
+        padding: .5rem .7rem;
+    }
+
+    .navbar-menu a.navbar-item:not(:first-of-type) {
+        margin-left: 2.8rem;
     }
 
     .navbar-menu .navbar-item:hover {
