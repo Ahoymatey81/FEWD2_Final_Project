@@ -1175,54 +1175,6 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
  END CSS COMPONENT TEXT EFFECTS 
 *****************************************/
 
-/*  CSS TEXT EFFECT FLIP */
-#flip-container {
-    font-family: sans-serif;
-    text-align:center;
-    color:#777;
-    text-transform: uppercase;
-    font-size:36px;
-    font-weight:bold;
-    padding-top:200px;  
-    position:fixed;
-    width:100%;
-    bottom:45%;
-    display:block;
-  }
-  #flip {
-    height:50px;
-    overflow:hidden;
-  }
-  #flip > div > div {
-    color:#fff;
-    padding:4px 12px;
-    height:45px;
-    margin-bottom:45px;
-    display:inline-block;
-  }
-  #flip div:first-child {
-    animation: show 8s linear infinite;
-  }
-  #flip div div {
-    background:#42c58a;
-  }
-  #flip div:first-child div {
-    background:#4ec7f3;
-  }
-  #flip div:last-child div {
-    background:#DC143C;
-  }
-  @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-180px;}
-    33% {margin-top:-180px;}
-    38% {margin-top:-90px;}
-    66% {margin-top:-90px;}
-    71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
-  }
-
 
 /* BACKGROUND ANIMATION COMPONENT STYLES */
 #hero-animate {
@@ -1308,13 +1260,17 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
     }
   }
   /* END BACKGROUND ANIMATION COMPONENT STYLES */
-
-  /************* START - HERO COMPONENT **********************/
+/****************************************
+ START HERO
+*****************************************/
+.row .hero-page-content{
+    background: #ddd;
+}
 .hero {
     margin: 0;
     font-family: sans-serif;
     /* Sizing */
-    width: 100vw;
+    max-width: 960px;
     height: 100vh;
     
     /* Flexbox */
@@ -1327,9 +1283,9 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
     color: white; /* ADD THIS LINE */
     
     /* Background styles */
-    /* background-image: url('https://codetheweb.blog/assets/img/posts/full-image-hero/image.jpg'); */
+    background-image: url('../images/ss2.jpg') !important;
     background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
-    background-image: url('ss1.jpg');
+    /* background-color: blue; */
   
     background-size: cover;
     background-position: center center;
@@ -1372,91 +1328,13 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
     padding: 0.5rem 1rem;
     font-family: sans-serif;
   }
-  /*  END HERO */
+ /****************************************
+ END HERO
+*****************************************/
 
-  /* SLIDESHOW */
-  /* Slideshow container */
-#slideshow-container {
-    max-width: 1000px;
-    font-family: sans-serif;
-    position: relative;
-    margin: auto;
-  }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 40px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 30px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  /* Number text (1/4 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 400px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-  /* END SLIDESHOW */
-
-
-/**************** START ACCORDIAN CSS ******************/
-
+ /****************************************
+ START ACCORDIAN CSS 
+*****************************************/
 #my-accordion {
     font-family: sans-serif;
     min-height: 100vh;
@@ -1563,7 +1441,10 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
     padding-right: 1em;
 }
 
-/* END ACCORDIAN CSS */
+/****************************************
+END ACCORDION CSS 
+*****************************************/
+
 
 /* Responsive Media For Users to use 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
