@@ -585,20 +585,6 @@ div.button-example {
     transform: translateY(0);
 }
 
-.example {
-    text-align: left;
-    max-width: 700px;
-    background-color: #fefefe;
-    border: solid 1px #333;
-    margin: 1em;
-}
-
-xmp {
-    white-space:pre-line;
-    font-size: 1.2em;
-}
-
-
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
