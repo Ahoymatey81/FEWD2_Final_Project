@@ -1575,13 +1575,13 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
 *****************************************/
 
  /****************************************
-Trish changed 053123 220pm #my-accordion min height from 100 to 50vh
+Trish changed 06-01-2023 6pm
 
  START ACCORDION CSS 
 *****************************************/
 #my-accordion {
     font-family: sans-serif;
-    min-height: 50vh;
+    max-height: 800px;  /* changed from 50vh modified from sample code */
     padding: 3em;
 }
 #my-accordion h1 {
