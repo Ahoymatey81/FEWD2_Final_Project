@@ -1023,7 +1023,7 @@ div.forms-intro {
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.img-fluid {
+img {
     max-width: 100%;
     height: auto;
 }
