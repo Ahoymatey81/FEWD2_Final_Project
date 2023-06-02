@@ -109,19 +109,20 @@ html {
 }
 
 /* Heading styles */
+  /* Decrease font size - added mtop */
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
+    margin-top: .5;
     margin-bottom: 2rem;
     font-weight: 300; }
-  h1 { font-family: 'Merriweather', serif; font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem; }
-  h2 { font-family: 'Merriweather', serif; font-size: 3.5rem; line-height: 1.25; letter-spacing: -.1rem; }
-  h3 { font-family: 'Merriweather', serif; font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
-  h4 { font-family: 'Merriweather', serif; font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
-  h5 { font-family: 'Merriweather', serif; font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
-  h6 { font-family: 'Merriweather', serif; font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+  h1 { font-family: 'Merriweather', serif; font-size: 3.5rem; line-height: 1.2;  letter-spacing: -.1rem; }
+  h2 { font-family: 'Merriweather', serif; font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
+  h3 { font-family: 'Merriweather', serif; font-size: 2.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
+  h4 { font-family: 'Merriweather', serif; font-size: 2rem; line-height: 1.35; letter-spacing: -.08rem; }
+  h5 { font-family: 'Merriweather', serif; font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
+  h6 { font-family: 'Merriweather', serif; font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
 
-  /* Increase font size for larger screens */
- @media (min-width: 550px) {
+  /* Increase font size for larger screens - changed min width to large screen size */
+ @media (min-width: 1500px) {
     h1 { font-size: 5.0rem; }
     h2 { font-size: 4.2rem; }
     h3 { font-size: 3.6rem; }
@@ -1497,8 +1498,8 @@ CSS COMPONENT TEXT EFFECTS STARTS HERE
 .hero {
     margin: 0;
     font-family: sans-serif;
-    /* Sizing */
-    max-width: 960px;
+    /* Sizing changed from 960px for framework not needed 6-2-23 Trish */
+    width: 100%; 
     height: 100vh;
     
     /* Flexbox */
