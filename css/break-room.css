@@ -271,24 +271,15 @@ dd {
 
 /* Borders and Border radius
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-See colors section for adding borders
+/*See colors section for adding borders*/
 
-.br-sm          { border-radius: 10%;}
-.br-md          { border-radius: 25%;}
-.br-lg          { border-radius: 50%;}
-.br-left        { border-radius: 25% 10%;}
-.br-right       { border-radius: 10% 25%;}
-.br-box         { border-radius: 10% / 50%;}
-.br-box-r       { border-radius: 50% 20% / 10% 40%;}
-
-
-
-/* NOTE NOT USING 6-02-23 TRISH */
-/*–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* .shadow-sm { box-shadow: 0 1px 3px 0, rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);}
-.shadow-md { box-shadow: 0 4px 6px -1px, rgba(0, 0, 0, 0.1),0 2px 4px -1px, rgba(0, 0, 0, 0.6);}
-.shadow-lg { box-shadow: 0 10px 15px -3px, rgba(0, 0, 0, 0.1),0 4px 6px -2px, rgba(0, 0, 0, 0.5);} */
-
+.br-sm          { border-radius: 5px;}
+.br-md          { border-radius: 15px;}
+.br-lg          { border-radius: 50px;}
+.br-left        { border-radius: 15px 5px;}
+.br-right       { border-radius: 5px 15px;}
+.br-box         { border-radius: 5px / 50px;}
+.br-box-r       { border-radius: 50px 15px / 15px 50px;}
 
 /* Colors
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -982,8 +973,8 @@ div.forms-intro {
 }
 .card {
     position: relative;
-    margin: 3rem;
-    padding: 3rem;
+    margin: 1rem;
+    padding: 2rem;
     background-image: none;
     border-radius: 0.4rem;
     border: 1px solid #050500;
@@ -1003,6 +994,11 @@ div.forms-intro {
 .py-card {
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+.card-img {
+    border-radius: 0.4rem 0.4rem 0 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media (min-width: 550px) {
     .p-card {
