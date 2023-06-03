@@ -577,6 +577,31 @@ div.button-example {
     transform: translateY(0);
 }
 
+/*Download button*/
+button.buttonDownload {
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6); 
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    font-weight: 530;
+    padding: 1rem;
+    text-align: center;
+}
+button.buttonDownload:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: translateY(-3px);
+    transition: all .3s ease;
+}
+button.buttonDownload:active {
+    opacity: .75;
+    transform: translateY(3px);
+    transition: all .3s ease;
+} 
+
+
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -1026,8 +1051,51 @@ img {
 
 /* Helpers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
+/* Floats */
+.floatLeft {
+    float: left !important;
+    color: #069;
+    margin-bottom: 10px;
+}
+.floatRight {
+    float: right !important;
+    color: #ff0000;
+    margin-left: 6px;
+}
+.floatNone {
+    float: none !important;
+    color: #008000
+}
+.floatExamples {
+    margin: 1.5rem 0;
+}
+.floatsUL {
+    margin: 1rem;
+}
+.floatsUL li {
+    margin: 0 1rem;
+}
+/* Floats HTML Color Schemes */
+.floatsTags {
+    color: #4f5fcf;
+}
+.floatsAttribute {
+    color: #2f9f47; 
+}
+.floatsQuotes {
+    color: #d4a349; 
+}
+/* Clearfix CSS */
+.clearfix {
+    border: solid 2px #212529;
+    margin-top: 10px;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /********************************************
     4. Components
@@ -1333,7 +1401,42 @@ a.navbar-item.active {
 
 /* No Print
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+@media print {
+    .no-print {
+	visibility: hidden;
+	display: none;
+    }
+    body {
+	-webkit-print-color-adjust:exact !important;
+	print-color-adjust:exact !important;
+	visibility: visible;
+    } 
+    table { 
+	page-break-after:auto;
+	visibility: visible;
+    }
+    tr { 
+	page-break-inside:avoid; 
+	page-break-after:auto;
+    }
+    td { 
+	page-break-inside:avoid; 
+	page-break-after:auto;
+    }
+    thead { 
+	display:table-header-group;
+	visibility: visible;
+    }
+    tfoot { 
+	display:table-footer-group;
+	visibility: visible;
+    }
+    table.table.tableDark {
+	background: #222;
+	color: #fff;
+	visibility: visible;
+    }
+}
 
 /********************************************
     5. Components
