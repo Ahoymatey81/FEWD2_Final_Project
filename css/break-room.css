@@ -99,7 +99,8 @@ img {
 /********************************************
     3. Elements
 ********************************************/
-
+h2#info, h2#elements, h2#components, h2#demos { scroll-margin-top: 6.5rem; } 
+/*push anchor links below sticky nav */
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -122,8 +123,8 @@ h1, h2, h3, h4, h5, h6 {
   h5 { font-family: 'Merriweather', serif; font-size: 1.5rem; line-height: 1.5;  letter-spacing: -.05rem; }
   h6 { font-family: 'Merriweather', serif; font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
 
-  /* Increase font size for larger screens - changed min width to large screen size */
- @media (min-width: 1500px) {
+  /* Increase font size for larger screens - changed min-width to very wide screen size */
+ @media (min-width: 3500px) {
     h1 { font-size: 5.0rem; }
     h2 { font-size: 4.2rem; }
     h3 { font-size: 3.6rem; }
