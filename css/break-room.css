@@ -187,7 +187,7 @@ hr {
     border-top: 1px solid #E1E1E1;
 }
 address,
-blockquote 
+blockquote {
     font-size: 1.5rem;
 }
 .navbar-example ul li,
