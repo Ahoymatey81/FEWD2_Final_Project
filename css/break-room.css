@@ -593,34 +593,6 @@ div.button-example {
     transform: translateY(0);
 }
 
-/* <<<<<<< Updated upstream 
-======= */
-/*Download button*/
-button.buttonDownload {
-    border-radius: 5px;
-    color: #000;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
-    -moz-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    font-size: 1.6rem;
-    font-weight: 530;
-    padding: 1rem;
-    text-align: center;
-}
-button.buttonDownload:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transform: translateY(-3px);
-    transition: all .3s ease;
-}
-button.buttonDownload:active {
-    opacity: .75;
-    transform: translateY(3px);
-    transition: all .3s ease;
-} 
-
-
-/* >>>>>>> Stashed changes */
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
