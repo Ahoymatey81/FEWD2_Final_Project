@@ -209,8 +209,6 @@ dd {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.navbar-nav-m {margin-top: 110px;}
-
 .m0 { margin: 0; }
 .m1 { margin: .25rem; }
 .m2 { margin: .5rem; }
@@ -219,14 +217,13 @@ dd {
 .m5 { margin: 2.0rem; }
 .m-auto { margin:auto; }
 
-/* START: TRISH CHANGED SUNDAY MAY 29 4 PM */
-
 .m0t { margin-top: 0; }
 .m1t { margin-top: .25rem; }
 .m2t { margin-top: .5rem; }
 .m3t { margin-top: 1.0rem; }
 .m4t { margin-top: 1.5rem; }
 .m5t { margin-top: 2.0rem; }
+.navbar-nav-m {margin-top: 105px;}
 
 .m0r { margin-top: 0; }
 .m1r{ margin-right: .25rem; }
@@ -248,6 +245,21 @@ dd {
 .m3l { margin-left: 1.0rem; }
 .m4l { margin-left: 1.5rem; }
 .m5l { margin-left: 2.0rem; }
+/* TRISH ADDED SUNDAY JUNE 4 4 PM */
+/* margin on sides only */
+.m0x { margin: 0; }
+.m1x{ margin: 0 .25rem; }
+.m2x { margin: 0 .5rem; }
+.m3x { margin: 0 1.0rem; }
+.m4x { margin: 0 1.5rem; }
+.m5x { margin: 0 2.0rem; }
+/* margin on top and bottom only */
+.m0y { margin: 0; }
+.m1y{ margin: .25rem 0; }
+.m2y { margin: .5rem 0; }
+.m3y { margin: 1.0rem 0; }
+.m4y { margin: 1.5rem 0; }
+.m5y { margin: 2.0rem 0; }
 
 .p0 { padding: 0; }
 .p1 { padding: .25rem; }
@@ -283,6 +295,22 @@ dd {
 .p3l { padding-left: 1.0rem; }
 .p4l { padding-left: 1.5rem; }
 .p5l { padding-left: 2.0rem; }
+/* TRISH ADDED SUNDAY JUNE 4 4 PM */
+/* padding on sides only */
+.p0x { padding: 0; }
+.p1x { padding: 0 .25rem; }
+.p2x { padding: 0 .5rem; }
+.p3x { padding: 0 1.0rem; }
+.p4x { padding: 0 1.5rem; }
+.p5x { padding: 0 2.0rem; }
+/* padding on top and bottom only */
+.p0y { padding: 0; }
+.p1y{ padding: .25rem 0; }
+.p2y { padding: .5rem 0; }
+.p3y { padding: 1.0rem 0; }
+.p4y { padding: 1.5rem 0; }
+.p5y { padding: 2.0rem 0; }
+
 
 /* Adds margin left spacing to main container for ul tags. */
 main.room ul {
