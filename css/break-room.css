@@ -575,8 +575,8 @@ div.button-example {
     transform: translateY(0);
 }
 
-<<<<<<< Updated upstream
-=======
+/* <<<<<<< Updated upstream 
+======= */
 /*Download button*/
 button.buttonDownload {
     border-radius: 5px;
@@ -602,7 +602,7 @@ button.buttonDownload:active {
 } 
 
 
->>>>>>> Stashed changes
+/* >>>>>>> Stashed changes */
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
