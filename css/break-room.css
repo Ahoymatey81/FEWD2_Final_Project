@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
     h3 { font-size: 3.6rem; }
     h4 { font-size: 3.0rem; }
     h5 { font-size: 2.5rem; }
-    h6 { font-size: 2rem; }
+    h6 { font-size: 2.0rem; }
   }
 
 p { 
@@ -186,20 +186,14 @@ hr {
     border-width: 0;
     border-top: 1px solid #E1E1E1;
 }
-address,
-blockquote {
-    font-size: 1.5rem;
-}
-.navbar-example ul li,
-.forms-intro  ul li,
-pre {
-    font-size: 1.4rem;
-}
+address { font-size: 1.5rem; }
+blockquote { font-size: 1.5rem; }
+pre { font-size: 1.4rem; }
 
-.btn-intro.section ul li,
-.btn-size.section ul li {
-    font-size: 1.5rem;
-}
+.navbar-example ul li { font-size: 1.4rem; }
+.forms-intro  ul li { font-size: 1.4rem; }
+.btn-intro.section ul li { font-size: 1.5rem; }
+.btn-size.section ul li { font-size: 1.5rem; }
 
 /* definition list */
 dt {
@@ -289,7 +283,7 @@ dd {
 .p4l { padding-left: 1.5rem; }
 .p5l { padding-left: 2.0rem; }
 
-/* Adds margin left spacing to main container. */
+/* Adds margin left spacing to main container for ul tags. */
 main.room ul {
     margin-left: 4rem;
 }
