@@ -128,14 +128,18 @@ h1, h2, h3, h4, h5, h6 {
     h2 { font-size: 4.2rem; }
     h3 { font-size: 3.6rem; }
     h4 { font-size: 3.0rem; }
-    h5 { font-size: 2.4rem; }
-    h6 { font-size: 1.5rem; }
+    h5 { font-size: 2.5rem; }
+    h6 { font-size: 2rem; }
   }
 
-p { margin-top: 0; padding-bottom: .2rem; }
+p { 
+    font-size: 1.5rem;    
+    margin-top: 0;
+    padding-bottom: .2rem;
+}
 p.space-p {
     letter-spacing: .2rem;
-    line-height: 1.75rem;
+    line-height: 2.75rem;
 }
 
 /* Font style/weight variations */
@@ -180,7 +184,22 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1.5rem;
     border-width: 0;
-    border-top: 1px solid #E1E1E1; }
+    border-top: 1px solid #E1E1E1;
+}
+address,
+blockquote 
+    font-size: 1.5rem;
+}
+.navbar-example ul li,
+.forms-intro  ul li,
+pre {
+    font-size: 1.4rem;
+}
+
+.btn-intro.section ul li,
+.btn-size.section ul li {
+    font-size: 1.5rem;
+}
 
 /* definition list */
 dt {
@@ -269,6 +288,11 @@ dd {
 .p3l { padding-left: 1.0rem; }
 .p4l { padding-left: 1.5rem; }
 .p5l { padding-left: 2.0rem; }
+
+/* Adds margin left spacing to main container. */
+main.room ul {
+    margin-left: 4rem;
+}
 
 
 /* Borders and Border radius
@@ -363,7 +387,7 @@ dd {
 a {
     color: #3880ff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 a:hover {
     color: #2dd36f;
@@ -877,7 +901,8 @@ div.forms-intro {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .table {       
     background-color: transparent;
-    border-collapse: collapse;      
+    border-collapse: collapse;
+    font-size: 1.5rem;      
     margin-bottom: 1rem;
     text-align: left;
     width: 100%;
@@ -926,7 +951,7 @@ div.forms-intro {
     }
 }
 .content-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     margin-top: 0;
 }
@@ -1002,10 +1027,11 @@ img {
     color: #008000
 }
 .floatExamples {
+    font-size: 1.5rem;    
     margin: 1.5rem 0;
 }
 .floatsUL {
-    margin: 1rem;
+    margin: 1.5rem;
 }
 .floatsUL li {
     margin: 0 1rem;
@@ -1647,12 +1673,12 @@ START TODO CSS
   }
   .containerTD input, .containerTD button, .containerTD li {
     padding: .25rem;
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
   .containerTD input {
     width: 50%;
     padding: 0.25rem;
-    font-size: 1.1rem;
+    font-size: 2rem;
   }
   .containerTD .containerTD button {
     background-color: #efefef;
