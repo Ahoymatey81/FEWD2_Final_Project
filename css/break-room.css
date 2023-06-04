@@ -194,6 +194,8 @@ dd {
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar-nav-m {margin-top: 110px;}
+
 .m0 { margin: 0; }
 .m1 { margin: .25rem; }
 .m2 { margin: .5rem; }
@@ -210,7 +212,6 @@ dd {
 .m3t { margin-top: 1.0rem; }
 .m4t { margin-top: 1.5rem; }
 .m5t { margin-top: 2.0rem; }
-.navbar-nav-m {margin-top: 105px;}
 
 .m0r { margin-top: 0; }
 .m1r{ margin-right: .25rem; }
@@ -576,31 +577,6 @@ div.button-example {
 .button.disabled-btn:active, .button.disabled-btn:hover {
     transform: translateY(0);
 }
-
-/*Download button*/
-button.buttonDownload {
-    border-radius: 5px;
-    color: #000;
-    cursor: pointer;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6); 
-    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0, 0, 0, 0.6);
-    font-size: 1.6rem;
-    font-weight: 530;
-    padding: 1rem;
-    text-align: center;
-}
-button.buttonDownload:hover {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    transform: translateY(-3px);
-    transition: all .3s ease;
-}
-button.buttonDownload:active {
-    opacity: .75;
-    transform: translateY(3px);
-    transition: all .3s ease;
-} 
-
 
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1024,6 +1000,7 @@ div.forms-intro {
     border-radius: 0.4rem 0.4rem 0 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1rem;
 }
 @media (min-width: 550px) {
     .p-card {
@@ -1095,6 +1072,13 @@ img {
     content: "";
     display: table;
     clear: both;
+}
+/* No Print
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media print {
+    .no-print {
+       visibility: hidden;
+    }
 }
 
 /********************************************
