@@ -1696,6 +1696,9 @@ START TODO CSS
   #tgCompletedPosInput {
     margin-bottom: .5rem;
   }
+  .todo-item .text {
+    font-size: 2rem;
+  }
   
 /****************************************
 END TODO CSS 
